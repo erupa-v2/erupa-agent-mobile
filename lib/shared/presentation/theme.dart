@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 
 ColorScheme lightColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.light,
-  seedColor: const Color(0xFFFE0000),
-  primary: const Color(0xFFFE0000),
+  seedColor: const Color(0xFF000000),
+  primary: const Color(0xFF000000),
   onPrimary: const Color(0xFFffffff),
   background: const Color(0xFFffffff),
   onBackground: const Color(0xFF1a1c18),

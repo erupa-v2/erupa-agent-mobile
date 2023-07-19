@@ -34,6 +34,7 @@ mixin AuthLogicMixin {
       },
       verificationFailed: (FirebaseAuthException e) {
         SnackBarHelper.showErrorSnackBar(context, e.message!);
+        print(e.message);
         // Persist state of CTA buttons
         submitButtonState.value = false;
         disabledButtonState.value = false;

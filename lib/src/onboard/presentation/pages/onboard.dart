@@ -1,9 +1,11 @@
 import 'package:animate_do/animate_do.dart';
+import 'package:erupa_agent_v2/shared/data/image_assets.dart';
+import 'package:erupa_agent_v2/shared/data/svg_assets.dart';
 import 'package:erupa_agent_v2/shared/util/extension.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../../../../shared/data/gif_assets.dart';
 import '../../../../shared/presentation/i18n/localization.dart';
 import '../../../../shared/presentation/route.dart';
 import '../../../../shared/util/navigation.dart';
@@ -13,6 +15,7 @@ class OnboardPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(ImageAssets.hero);
     final localization = AppLocalizations.of(context)!;
     final textTheme = Theme.of(context).textTheme;
     return Scaffold(
@@ -30,7 +33,9 @@ class OnboardPage extends StatelessWidget {
               child: SizedBox(
                 width: 350,
                 height: 350,
-                child: Image.asset(GifAssets.hero),
+                child: SvgPicture.asset(
+                  SvgAssets.property,
+                )
               ),
             ),
             FadeInUpBig(
