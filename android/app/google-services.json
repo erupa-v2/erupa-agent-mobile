@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "989244951202",
+    "project_id": "erupa-7c438",
+    "storage_bucket": "erupa-7c438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989244951202:android:acd61eff090540845425fb",
+        "android_client_info": {
+          "package_name": "com.example.erupa_agent_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989244951202-bdjcj5vne1cr4f6cvc468okqt4c7vbe0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZINZl-yNTqJ2TNG6224Jql-AV1BxbW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989244951202-bdjcj5vne1cr4f6cvc468okqt4c7vbe0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "989244951202-brjd1d04nhk1269c3a3t6opmesve6fnj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "erupa.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989244951202:android:7b3454b696ef147e5425fb",
+        "android_client_info": {
+          "package_name": "erupa.app.erupa_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989244951202-bdjcj5vne1cr4f6cvc468okqt4c7vbe0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZINZl-yNTqJ2TNG6224Jql-AV1BxbW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989244951202-bdjcj5vne1cr4f6cvc468okqt4c7vbe0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "989244951202-brjd1d04nhk1269c3a3t6opmesve6fnj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "erupa.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
